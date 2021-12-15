@@ -25,6 +25,6 @@ pipeline {
                 bat "mvn -Dmaven.test.failure.ignore=true test"
             }
         }
-        }
+       
     }
 }
